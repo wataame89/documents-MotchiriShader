@@ -5,12 +5,12 @@ import {themes as prismThemes} from 'prism-react-renderer';
   title: '綿飴屋',
   tagline: 'wataameya',
   url: 'https://wataame89.github.io',
-  baseUrl: '/documents-marshmallowPB/',
+  baseUrl: '/documents-MotchiriShader/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/wataameya.png',
   organizationName: 'wataame89', // Usually your GitHub org/user name.
-  projectName: 'documents-marshmallowPB', // Usually your repo name.
+  projectName: 'documents-MotchiriShader', // Usually your repo name.
 
   i18n: {
     defaultLocale: 'ja',
@@ -54,7 +54,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'ましゅまろPB説明書',
+        title: 'もっちりシェーダー説明書',
         // logo: {
         //   alt: 'My Site Logo',
         //   src: 'img/wataameya.png',

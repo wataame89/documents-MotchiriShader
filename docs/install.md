@@ -1,8 +1,32 @@
 ---
 sidebar_position: 2
 ---
-
 # 導入方法
+こちらの動画を参照して下さい。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BnpupxYl1XA?si=242cx5mi2yY1-sgL" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+
+1. VRChat Creator Companion(VCC)でプロジェクトを開きます。(**VCCは最新版を使用してください**)  
+2. [Modular Avatar](https://modular-avatar.nadena.dev/ja/)のパッケージをVCCに導入します。([パッケージのリンクはこちら](vcc://vpm/addRepo?url=https://vpm.nadena.dev/vpm.json))  
+3. VCC上でプロジェクトのManage Projectから"**Gesture Manager**","**Modular Avatar**","**Non-Destructive Modular Framework**" の3点を追加します。  
+4. 再度プロジェクトを開き、インポートされていることを確認します。
+5. **ver1.9.0以前、またはbeta版のもっちりシェーダーが入っている場合**はmotchiri_shaderフォルダを削除します。(VGCフォルダは既存のFXが入っているため、削除しないでください)   
+6. [最新版のもっちりシェーダー](https://wataame89.booth.pm/items/4108136)をインポートします。
+7. アバターのシェーダーがlilToonであることを確認します。(もっちりシェーダーが入っている場合はlilToonに戻して下さい)  
+8. アバターを右クリックし、メニューからwataameya→MotchiriShaderをクリックします。  
+9. 生成されたmotchiri_shader_Setupのアバタープリセットを設定します。  
+10. motchiri_shaderフォルダにあるfor testプレハブをシーン上に置きます。
+11. 画面上部のメニューバーからTools→Gesture Manager Emulatorをクリックします。  
+12. Gesture Managerを起動し、for testを肌に近づけて正常にもっちりしていれば設定完了です。  
+
+### ベータ版使用者の方へ
+ベータ版をお試し頂き、誠にありがとうございます。  
+動かない場合や設定がよく分からない場合はお気軽に[作者Twitter](https://twitter.com/wataameya_vr)にてDMや@ツイートでお知らせください。  
+ご意見・バグ報告なども頂けると助かります。(特に設定項目や機能への要望を頂けるとありがたいです)
+
+<!-- もっちりシェーダーを設定済みのアバターを設定したい場合は[こちらを参考にもっちりシェーダーを外してから設定して下さい。](https://wataame89.github.io/documents-marshmallowPB/trouble) -->
+
+<!-- 
 こちらの動画を参照して下さい。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/17p4SnL1kus?si=og9SA6Ef8Rwkg3_-" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
@@ -55,4 +79,4 @@ sidebar_position: 2
 動作確認に専用のコンポーネント(Gesture Manager)を使用するため、VRChat Creator Companion(VCC)にのみ対応しています。  
 (非推奨ですが、動作確認をVRChatでするのであればVCCでなくても正常に動作します)
 
-[旧方式の説明書はこちら](https://docs.google.com/document/d/1dvbHSSSIGPoFFt5rA9RUba8309XX7bLs-4dKND2Bam0/edit?usp=sharing)
+[旧方式の説明書はこちら](https://docs.google.com/document/d/1dvbHSSSIGPoFFt5rA9RUba8309XX7bLs-4dKND2Bam0/edit?usp=sharing) -->

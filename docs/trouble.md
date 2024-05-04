@@ -1,8 +1,8 @@
 ---
 sidebar_position: 5
 ---
-
 # 困ったときは
+<!-- 
 ### 貫通してしまう場合
 仕様上、服によってはどうしても貫通してしまいます。以下のような対策があります。
 - 胸の大きさのシェイプキーを服のシェイプキーに対してごく僅かに小さくする。(多くの場合はこれで対応できます)
@@ -58,4 +58,4 @@ Gesture Managerや再生モードに入ってもmarshmallow_PB_setupが残って
 
 ### 不具合が起きた場合
 [Booth](https://wataame89.booth.pm)、[Twitter](https://twitter.com/wataameya_vr)にて作者までご連絡ください。  
-軽微なバグ・不具合を見つけた場合は[こちらのGoogleformまで](https://forms.gle/DHajiroywcGEGHb98)お願いします。
+軽微なバグ・不具合を見つけた場合は[こちらのGoogleformまで](https://forms.gle/DHajiroywcGEGHb98)お願いします。 -->
