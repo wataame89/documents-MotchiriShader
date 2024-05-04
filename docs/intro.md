@@ -21,6 +21,7 @@ ver2.0.0以降ではModular Avatarの[Non-Destructive Modular Framework(NDMF)](h
 - 他プレイヤーも触ることが可能！
 - Modular Avatar(NDMF)による簡単・非破壊的導入！  
   - lilToonからの自動変換機能
+  - FXの自動統合機能
 - EXコライダーの設定により、人差し指以外でも触ることが可能！
 - その他、細かい様々な調整(もっちり関数の微調整、法線修正、etc.)  
 
