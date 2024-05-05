@@ -6,18 +6,19 @@ sidebar_position: 2
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BnpupxYl1XA?si=242cx5mi2yY1-sgL" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 
-1. VRChat Creator Companion(VCC)でプロジェクトを開きます。(**VCCは最新版を使用してください**)  
-2. [Modular Avatar](https://modular-avatar.nadena.dev/ja/)のパッケージをVCCに導入します。([パッケージのリンクはこちら](vcc://vpm/addRepo?url=https://vpm.nadena.dev/vpm.json))  
-3. VCC上でプロジェクトのManage Projectから"**Gesture Manager**","**Modular Avatar**","**Non-Destructive Modular Framework**" の3点を追加します。  
-4. 再度プロジェクトを開き、インポートされていることを確認します。
-5. **ver1.9.0以前、またはbeta版のもっちりシェーダーが入っている場合**はmotchiri_shaderフォルダを削除します。(VGCフォルダは既存のFXが入っているため、削除しないでください)   
-6. [最新版のもっちりシェーダー](https://wataame89.booth.pm/items/4108136)をインポートします。
-7. アバターのシェーダーがlilToonであることを確認します。(もっちりシェーダーが入っている場合はlilToonに戻して下さい)  
-8. アバターを右クリックし、メニューからwataameya→MotchiriShaderをクリックします。  
-9. 生成されたmotchiri_shader_Setupのアバタープリセットを設定します。  
-10. motchiri_shaderフォルダにあるfor testプレハブをシーン上に置きます。
-11. 画面上部のメニューバーからTools→Gesture Manager Emulatorをクリックします。  
-12. Gesture Managerを起動し、for testを肌に近づけて正常にもっちりしていれば設定完了です。  
+1. VRChat Creator Companion(VCC)でプロジェクトを開きます。(**VCCは最新版を使用してください**)
+1. [Modular Avatar](https://modular-avatar.nadena.dev/ja/)のパッケージをVCCに導入します。([パッケージのリンクはこちら](vcc://vpm/addRepo?url=https://vpm.nadena.dev/vpm.json))
+1. VCC上でプロジェクトのManage Projectから"**Gesture Manager**","**Modular Avatar**","**Non-Destructive Modular Framework**" の3点を追加します。
+1. 再度プロジェクトを開き、インポートされていることを確認します。
+1. **ver1.9.0以前、またはbeta版のもっちりシェーダーが入っている場合**はmotchiri_shaderフォルダを削除します。(VGCフォルダは既存のFXが入っているため、削除しないでください)
+1. [最新版のもっちりシェーダー](https://wataame89.booth.pm/items/4108136)をインポートします。
+1. アバターにもっちりシェーダーが入っている場合は、もっちりシェーダーをlilToonに変更し、motchiriオブジェクトを削除し、FXレイヤーを設定前のものに戻します。
+1. アバターのシェーダーがlilToonであることを確認します。(UTSでは動作しません)
+1. アバターを右クリックし、メニューからwataameya→MotchiriShaderをクリックします。
+1. 生成されたmotchiri_shader_Setupのアバタープリセットを設定します。
+1. motchiri_shaderフォルダにあるfor testプレハブをシーン上に置きます。
+1. 画面上部のメニューバーからTools→Gesture Manager Emulatorをクリックします。
+1. Gesture Managerを起動し、for testを肌に近づけて正常にもっちりしていれば設定完了です。
 
 ### ベータ版使用者の方へ
 ベータ版をお試し頂き、誠にありがとうございます。  
