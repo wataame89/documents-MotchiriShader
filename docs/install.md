@@ -44,3 +44,6 @@ sidebar_position: 2
 Unityにマスクを導入後、必ずMip Streamingの項目をオンにして下さい。(アップロード時にエラーが発生します)
 
 非対応アバターのマスクが作成出来ましたら[こちらのフォーム](https://forms.gle/KLTTSqsE4qs8uvfN8)から共有して頂けるとありがたいです。([マスク共有フォルダはこちら](https://drive.google.com/drive/folders/1stqqIn21kCK0fb2n-9iuPANs1vyrfCKaCaRX-rHcl3V3LFspC_EzBBgI0mktw_Ot9TtHXLb9?usp=sharing))
+
+### 旧バージョン(ver1.9.0以前)
+[こちらのドキュメント](https://docs.google.com/document/d/12P_FFVJuNOV73QjRfC3pZ4aRZqmnqr281_yjS4hq_uY/edit?usp=share_link)を参照してください
