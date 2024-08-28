@@ -13,71 +13,36 @@ sidebar_position: 2
 1. **ver1.9.0以前、またはbeta版のもっちりシェーダーが入っている場合**はmotchiri_shaderフォルダを削除します。(VGCフォルダは既存のFXが入っているため、削除しないでください)
 1. [最新版のもっちりシェーダー](https://wataame89.booth.pm/items/4108136)をインポートします。
 1. アバターにもっちりシェーダーが入っている場合は、もっちりシェーダーをlilToonに変更し、motchiriオブジェクトを削除し、FXレイヤーを設定前のものに戻します。
-1. アバターのシェーダーがlilToonであることを確認します。(UTSでは動作しません)
+1. アバターのシェーダーがlilToonであることを確認します。
 1. アバターを右クリックし、メニューからwataameya→MotchiriShaderをクリックします。
 1. 生成されたmotchiri_shader_Setupのアバタープリセットを設定します。
 1. motchiri_shaderフォルダにあるfor testプレハブをシーン上に置きます。
 1. 画面上部のメニューバーからTools→Gesture Manager Emulatorをクリックします。
 1. Gesture Managerを起動し、for testを肌に近づけて正常にもっちりしていれば設定完了です。
 
-### ベータ版使用者の方へ
-ベータ版をお試し頂き、誠にありがとうございます。  
-動かない場合や設定がよく分からない場合はお気軽に[作者Twitter](https://twitter.com/wataameya_vr)にてDMや@ツイートでお知らせください。  
-ご意見・バグ報告なども頂けると助かります。(特に設定項目や機能への要望を頂けるとありがたいです)
-
-<!-- もっちりシェーダーを設定済みのアバターを設定したい場合は[こちらを参考にもっちりシェーダーを外してから設定して下さい。](https://wataame89.github.io/documents-marshmallowPB/trouble) -->
-
-<!-- 
-こちらの動画を参照して下さい。
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/17p4SnL1kus?si=og9SA6Ef8Rwkg3_-" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-
-1. VRChat Creator Companion(VCC)でプロジェクトを開きます。(**VCCは最新版を使用してください**)  
-2. [Modular Avatar](https://modular-avatar.nadena.dev/ja/)のパッケージをVCCに導入します。([パッケージのリンクはこちら](vcc://vpm/addRepo?url=https://vpm.nadena.dev/vpm.json))  
-3. VCC上でプロジェクトのManage Projectから"**Gesture Manager**","**Modular Avatar**","**Non-Destructive Modular Framework**" の3点を追加します。  
-4. 再度プロジェクトを開き、インポートされていることを確認します。
-5. **ver1.7.0以前、またはbeta版のましゅまろPBが入っている場合**は「marshmallow_PB/Setup/FX」内の生成済みFXを移動し、marshmallow_PBフォルダを削除します。(削除しない場合、エラーが発生します)   
-6. [最新版のましゅまろPB](https://wataame89.booth.pm/items/4511536)をインポートします。  
-7. アバターを右クリックし、メニューからwataameya→MarshmallowPBをクリックします。  
-8. 生成されたmarshmallow_PB_Setupのアバタープリセットを設定します。  
-9. 画面上部のメニューバーからTools→Gesture Manager Emulatorをクリックします。  
-9. Gesture Managerを起動し、正常に動いていれば設定完了です。  
-
-ましゅまろPBを設定済みのアバターを設定したい場合は[こちらを参考にましゅまろPBを外してから設定して下さい。](https://wataame89.github.io/documents-marshmallowPB/trouble)
-
 ### 非対応アバターに設定したい場合
-こちらの動画を参照してください。
+プリセット無しの状態でメッシュ、マスクを設定して下さい。  
+マスクが存在しない場合、作成する必要があります。  
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BYJZBUt0f_w?si=W9nI2fAhSIp5ubg8" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+もっちりシェーダーのマスクは対応するUV位置が白い部分ではへこみ、黒い部分ではへこまないようになります。灰色などでは中間の強度となります。すなわち、へこませたくない部分を黒く塗りつぶしたマスクを作成する必要があります。また、UVの切れ目はへこみ具合が異なると破綻する場合があるので、同じ色に設定してください。(blenderのテクスチャペイントを使うと簡単です)
 
-1. アバターを右クリックし、メニューからwataameya→MarshmallowPBをクリックします。  
-2. 生成されたmarshmallow_PB_Setupをプリセット無しのまま、胸ボーンを設定します。動画ではオンのままですが、胸のPBはオフにすることが推奨されます。  
-3. marshmallow_PB_Setup以下の"For Unsupported Avatar/marshmallow_PB_L"をオンにします。
-4. 緑色のカプセルコライダーの位置を確認します。見えない場合はScene上部のGizmosをクリックしてください。
-5. カプセルコライダーをアバターの左胸部分に移動・スケール調整します。目安としては、下図の真横から見たときに胸のカーブ(赤線部分)にピボット部分(XYZ方向に動かす部分)の中心が位置するように設定してください。  
-6. カプセルコライダーの部分が胸に収まるようにスケールを変更します。
-7. Gesture Managerを起動し、正常に動いていれば設定完了です。  
-(起動時は若干カプセルコライダーの位置が変わりますが、正常な動作ですので問題ありません)
+ペイントソフトを用いて白いテクスチャ上で、体テクスチャのUVの手足部分を黒く塗りつぶしてください。塗りつぶされた手足と繋がる部分(手首、足首の継ぎ目)も黒く塗る必要があります。無くても問題ありませんが、手足以外では首、前腕、肘、膝、へそ、骨盤、脛を黒く塗ると自然なへこみ具合になります。メッシュ上にある白と黒の境目はぼかしてください。また、顔テクスチャも同一の場合、顔も黒く塗ってください。  
+
+竜胆ちゃんのUVのイメージではマスク作成は以下のようになります。
 
 <img
-  src={require('/img/hitaioou2.png').default}
-  alt="hitaioou"
-  style={{ width: '450px' }}
+  src={require('/img/hitaiou1.png').default}
+  style={{ width: '600px' }}
 />
 
+顔のマスクは一度全て黒く塗りつぶしたテクスチャを作り、UV上のほっぺ部分を白く塗り、ぼかすと簡単です。
+<img
+  src={require('/img/hitaiou2.png').default}
+  style={{ width: '180px' }}
+/>
 
-### Modular Avatarを使用しない方法(旧方式)
-:::caution
-アバターとFXレイヤーを複製して設定しているため、現在は非推奨です。  
-特別な理由が無い場合は新方式を使用してください。
-:::
-
-こちらの動画を参照して下さい。
-
-<iframe width="280" height="158" src="https://www.youtube.com/embed/739tyxA7PKo?si=FkVczSvkKsqLBcV9" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+Unityにマスクを導入後、必ずMip Streamingの項目をオンにして下さい。(アップロード時にエラーが発生します)
 
 
-動作確認に専用のコンポーネント(Gesture Manager)を使用するため、VRChat Creator Companion(VCC)にのみ対応しています。  
-(非推奨ですが、動作確認をVRChatでするのであればVCCでなくても正常に動作します)
 
-[旧方式の説明書はこちら](https://docs.google.com/document/d/1dvbHSSSIGPoFFt5rA9RUba8309XX7bLs-4dKND2Bam0/edit?usp=sharing) -->
+
