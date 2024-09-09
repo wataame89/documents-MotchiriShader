@@ -19,7 +19,7 @@ VRChat側で設定された指のデフォルトコライダーはカプセル�
 体のみハイポリになっているため、タイツとポリゴンがズレるために起こります。体のポリゴンと合わせるためにタイツのテッセレーションをオンにすれば直ります。
 <img
   src={require('/img/taitu.png').default}
-  style={{ width: '400px' }}
+  style={{ width: '800px' }}
 />
 
 ### ほっぺが上手くもちもちできない
@@ -32,7 +32,7 @@ VRChat側で設定された指のデフォルトコライダーはカプセル�
 shadowdepth_bodyはハイポリ化する前のメッシュを参照して暗くするため、ハイポリ化しているとズレて正常に動作しません。ですが、lilToonに付いている同等の機能である距離フェードを使用すると解決します。shadowdepth_bodyを外し、もっちりシェーダーのマテリアルを図のように設定するとshadowdepth_bodyと同程度に機能します。
 <img
   src={require('/img/shadow.png').default}
-  style={{ width: '400px' }}
+  style={{ width: '800px' }}
 />
 
 ### blackbody shaderと併用するともっちりした部分が黒くなる
